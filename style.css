@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image:url(fondo.jpg);
+    margin:
+}
+
+#cabecera{
+    width: 100%;
+    border:solid 1px;
+    text-align: center;
+    background-image: url(fondo3.jpg);
+    background-size:cover;
+    font-weight: bold;
+    border-radius: 20px;
+}
+h1{
+    font-family:"Courier New";
+    font-size: 500%
+    
+}
+
+#contenedor{
+    height: 100%;
+    padding:1%
+}
+.tarjeta{
+    font-family: "Helvetica";
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 50%;
+    width: 20%;
+    float: left;
+    margin:1%;
+    margin-left: 3%;
+    background-color:white;
+}
+.tarjeta a{
+    text-decoration: none;
+    color:black;
+}
+
+.tarjeta:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.tarjeta img{
+    margin-left: 12%;
+    display:block;
+    height: 300px;
+    width: 200px;
+}
+.tarjeta p{
+    text-align: center;
+    font-size: 120%
+}
+ul{
+    
+    width: 20%;
+    display: inline-block
+}
+li {
+    list-style: none;
+    cursor: pointer;
+    margin-top:2%;
+    text-align: right
+}
+#segundaLista li{
+    text-align: justify;
+    
+}
+.loading{
+    position: fixed;
+    margin-left:50%;
+    
+    
+}
+@media only screen and (min-width:1500px){
+    .tarjeta{
+        margin-left: 3%
+    }
+    .tarjeta img{
+    height: 400px;
+    width: 270px;
+}
+    
+    
+}
+
+
