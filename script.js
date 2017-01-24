@@ -3,7 +3,7 @@ function tipoBusqueda(){
     var y = ""
     if($('#selYear').prop("checked")){
         
-        texto += "&y=<"+ $('#range1').val();
+        texto += "&y="+ $('#range1').val();
     }
     if($("#selPeliculas").prop("checked")){
         texto += "movie";
